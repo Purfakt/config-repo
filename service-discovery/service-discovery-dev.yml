@@ -8,4 +8,4 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
   server:
-    enaleSelfPreservation: false
+    enable-self-preservation: false #should probably be updated later on
