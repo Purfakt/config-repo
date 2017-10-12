@@ -1,0 +1,1 @@
+# Overwrites application.yml and user-service.yml properties when test profile is active
