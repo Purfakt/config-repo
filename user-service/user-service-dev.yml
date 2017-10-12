@@ -1,7 +1,4 @@
 # Overwrites application.yml and user-service.yml properties when dev profile is active
 eureka:
-  client:
-    register-with-eureka: true
-    fetch-registry: true
   instance:
-    instance-id: ${spring.application.name}-dev:${random.int}
+    instance-id: ${spring.application.name}dev:${random.int}
