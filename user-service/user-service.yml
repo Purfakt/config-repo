@@ -14,3 +14,4 @@ eureka:
     fetch-registry: true
   instance:
     instance-id: ${spring.application.name}:${random.int}
+ message: default-user-service
