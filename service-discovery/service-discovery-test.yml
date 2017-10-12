@@ -1,0 +1,2 @@
+# Overwrites application.yml and service-discovery.yml properties when test profile is active
+

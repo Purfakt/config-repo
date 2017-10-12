@@ -1,0 +1,4 @@
+# Overwrites application.yml and rating-service.yml properties when prod profile is active
+eureka:
+  instance:
+    instance-id: ${spring.application.name}-prod:${random.int}
