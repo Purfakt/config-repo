@@ -1,11 +1,1 @@
-message: dev
-server:
-  port: 8761
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    register-with-eureka: false
-    fetch-registry: false
-  server:
-    enable-self-preservation: false #should probably be updated later on
+# Overwrites application.yml and service-discovery.yml properties when dev profile is active

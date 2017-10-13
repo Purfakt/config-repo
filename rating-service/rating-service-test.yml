@@ -1,0 +1,4 @@
+# Overwrites application.yml and rating-service.yml properties when test profile is active
+eureka:
+  instance:
+    instance-id: ${spring.application.name}-test:${random.int}
